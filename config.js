@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💩', '👀','🌻', '👀''🪻''🌼'],  // Heart emojis
+        hearts: ['💩', '👀','🌻', '👀','🪻','🌼'],  // Heart emojis
         bears: ['👀', '🫶'], // Cute bear emojis
     },
 
@@ -23,7 +23,7 @@ const CONFIG = {
     questions: {
         first: {
             text: "You don't like me, do you?",                                    // First interaction
-            yesBtn: "Yessss >.<",                                             // Text for "Yes" button
+            yesBtn: "Yessss",                                             // Text for "Yes" button
             noBtn: "No I don't",                                               // Text for "No" button
             secretAnswer: "you're the awesomest person alive, ily dumbass"           // Secret hover message
         },
@@ -42,14 +42,14 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You think I'm thaaat awesome? 🥰🚀🌻",  // Shows when they go past 5000%
+        extreme: "WOOOOW You think I'm thaaat awesome? 🥰🌻",  // Shows when they go past 5000%
         high: "To infinity and beyond! 🚀",              // Shows when they go past 1000%
         normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Mission Passed. 💯🙊",
+        title: "Mission Passed 💯🙊",
         message: "So..You want the moon? Say the word and I'll throw a lasso around it and pull it down fo' ya!",
         emojis: "✨🌙⭐️🪐💫🌜"  // These will bounce around
     },
