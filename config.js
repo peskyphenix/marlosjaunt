@@ -5,17 +5,17 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Carlo",
+    valentineName: "Carlooo",
 
     // The title that appears in the browser tab
-    // You can use emojis! 💩👽💩😎🤔😶‍🌫️💩💩
+    // You can use emojis! 💩
     pageTitle: "Yo homie, do you know what you're doing on the 14th? ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💩', '💖', '💩', '👻', '🫨'],  // Heart emojis
-        bears: ['👀', '🫶']                       // Cute bear emojis
+        hearts: ['💩', '👀'],  // Heart emojis
+        bears: ['👀', '🫶'], // Cute bear emojis
     },
 
     // Questions and answers
