@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "You don't like me, do you?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Yessss >.<",                                             // Text for "Yes" button
+            noBtn: "No I don't",                                               // Text for "No" button
             secretAnswer: "you're the awesomest person alive, ily dumbass"           // Secret hover message
         },
         second: {
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Next 🤹🏻‍♀️"                                         // Text for the next button
         },
         third: {
-            text: "Are we gonna hang out on the 45th day of the year in the Gregorian calendar?💐", // The big question!
+            text: "Aight - we gonna hang out on the 45th day of the year in the Gregorian calendar?💐", // The big question!
             yesBtn: "OFCOURSE!",                                             // Text for "Yes" button
             noBtn: "Absolutely not"                                                 // Text for "No" button
         }
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! Solli kudutha madhiri choose pannite!🙊",
-        message: "Aight, what do you want for your gift? You want the moon? Say the word and I'll throw a lasso around it and pull it down fo' ya!",
-        emojis: "✨🌙🌕⭐️🪐💫✨🌻🌜"  // These will bounce around
+        title: "Mission Passed. 💯🙊",
+        message: "So..You want the moon? Say the word and I'll throw a lasso around it and pull it down fo' ya!",
+        emojis: "✨🌙⭐️🪐💫🌜"  // These will bounce around
     },
 
     // Color scheme for the website
