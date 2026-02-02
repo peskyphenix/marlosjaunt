@@ -77,9 +77,6 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('yesBtn3').textContent = config.questions.third.yesBtn;
     document.getElementById('noBtn3').textContent = config.questions.third.noBtn;
 
-    // Set celebration button text
-    document.getElementById('celebrationNextBtn').textContent = config.celebration.nextBtn;
-
     // Create initial floating elements
     createFloatingElements();
 
