@@ -77,6 +77,9 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('yesBtn3').textContent = config.questions.third.yesBtn;
     document.getElementById('noBtn3').textContent = config.questions.third.noBtn;
 
+    // Set celebration button text
+    document.getElementById('celebrationNextBtn').textContent = config.celebration.nextBtn;
+
     // Create initial floating elements
     createFloatingElements();
 
@@ -173,6 +176,13 @@ loveMeter.addEventListener('input', () => {
 window.addEventListener('DOMContentLoaded', setInitialPosition);
 window.addEventListener('load', setInitialPosition);
 
+// Stop floating animation and replace with celebration emojis
+function stopFloatingEmojis() {
+    const floatingElements = document.querySelector('.floating-elements');
+    floatingElements.innerHTML = '';
+    floatingElements.style.display = 'none';
+}
+
 // Celebration function
 function celebrate() {
     document.querySelectorAll('.question-section').forEach(q => q.classList.add('hidden'));
@@ -184,8 +194,17 @@ function celebrate() {
     document.getElementById('celebrationMessage').textContent = config.celebration.message;
     document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
     
+    // Stop floating emojis and replace with celebration emojis
+    stopFloatingEmojis();
+    
     // Create heart explosion effect
     createHeartExplosion();
+}
+
+// Go to next page
+function goToNextPage() {
+    document.getElementById('celebration').classList.add('hidden');
+    document.getElementById('nextPage').classList.remove('hidden');
 }
 
 // Create heart explosion animation
